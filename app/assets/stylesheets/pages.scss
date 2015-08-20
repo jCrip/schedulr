@@ -1,0 +1,24 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#calendar {
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+
+.fc-content {
+	position: relative;
+}
+
+.delete {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	z-index: 10;
+}
+
+.delete:hover {
+	color: red;
+}
