@@ -1,6 +1,6 @@
 /* global moment */
 
-$(document).ready(function() {
+$(document).on('page:change', function() {
 
 	function editEvent(event, element, revertFunc) {
 		var allDay = !event.start.hasTime() && !event.end.hasTime();
